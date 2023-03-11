@@ -1,7 +1,7 @@
 -- Load data from CSV file to PostgresSQL
 -- Creating table
 
-CREATE TABLE ttt (
+CREATE TABLE titanic (
     PassengerId NUMERIC,
     Survived NUMERIC,
     Pclass NUMERIC,
@@ -17,7 +17,7 @@ CREATE TABLE ttt (
 )
 
 -- Copy data from CSV file to table ttt
-COPY ttt(PassengerId, 
+COPY titanic(PassengerId, 
 		 Survived, 
 		 Pclass, 
 		 Name, 
